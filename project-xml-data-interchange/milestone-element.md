@@ -1,0 +1,88 @@
+﻿---
+title: Milestone 要素
+TOCTitle: Milestone 要素
+ms:assetid: 5dbe5481-b4a8-4a1d-826d-6557f57af3ef
+ms:mtpsurl: https://msdn.microsoft.com/ja-jp/library/Bb968520(v=office.12)
+ms:contentKeyID: 16738041
+ms.date: 06/30/2008
+mtps_version: v=office.12
+ms.translationtype: HT
+---
+
+# Milestone 要素
+
+** Task** の場合、** Milestone **はタスクがマイルストーンかどうかを示します。
+
+** Assignment** の場合は、割り当てられたタスクがマイルストーンかどうかを示します。
+
+    <Milestone>
+      BooleanValue
+    </Milestone>
+
+## 親要素
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><a href="task-element.md">Task</a>、<a href="assignment-element.md">Assignment</a></p></td>
+</tr>
+</tbody>
+</table>
+
+
+## 出現回数
+
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>最小 : 0</p>
+<p>最大 : 1</p></td>
+</tr>
+</tbody>
+</table>
+
+
+## テキスト値
+
+**boolean** 型のテキスト値が必要です。
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>値</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>False</p></td>
+</tr>
+<tr class="even">
+<td><p>1</p></td>
+<td><p>True</p></td>
+</tr>
+</tbody>
+</table>
+
+
+## 参照
+
+#### その他の技術情報
+
+[Task 要素と XML データ構造](task-elements-and-xml-structure.md)  
+[Tasks 要素の XML スキーマ](xml-schema-for-the-tasks-element.md)  
+[Assignment 要素と XML データ構造](assignment-elements-and-xml-structure.md)  
+[Assignments 要素の XML スキーマ](xml-schema-for-the-assignments-element.md)
+
